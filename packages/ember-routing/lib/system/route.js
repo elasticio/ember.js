@@ -501,7 +501,7 @@ function setupView(view, container, options) {
 
   view = view || container.lookup(defaultView);
 
-  if (!get(view, 'templateName')) {
+  if (!get(view, 'templateName') && options.template) {
     set(view, 'template', options.template);
 
     set(view, '_debugTemplateName', options.name);
