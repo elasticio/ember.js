@@ -43,7 +43,7 @@ Ember.onLoad('Ember.Handlebars', function(Handlebars) {
     namedRoute: null,
     currentWhen: null,
     title: null,
-    activeClass: 'active',
+    activeClass: '_active',
     replace: false,
     attributeBindings: ['href', 'title'],
     classNameBindings: 'active',
